@@ -20,7 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
              setInv = setInv, getInv = getInv)
 }
 
-
 ## Secondly, cacheSolve function can be used. cacheSolve function computes the inverse of the special matrix that is returned 
 ## by the function makeCacheMatrix. In the case that the inverse has been already computed and the matrix remained the same, 
 ## it should retrieve the inverse from the created cache.
